@@ -1,0 +1,32 @@
+{
+  "name": "docappbackend",
+  "version": "1.0.0",
+  "description": "api for manage patiente consultation system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alialtuve/docAppBackend.git"
+  },
+  "author": "Altuve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alialtuve/docAppBackend/issues"
+  },
+  "homepage": "https://github.com/alialtuve/docAppBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

@@ -1,0 +1,8 @@
+#react build directory
+public/*
+
+#node modules 
+node_modules/*
+
+# It self
+.eslintrc.js
