@@ -12,11 +12,12 @@ module.exports = {
   },
   rules: {
     "consistent-return": 0,
-    "no-console": 0,
+    "no-console": 1,
     "camelcase": 0,
     "import/no-dynamic-require": 0,
     "global-require": 0,
     "linebreak-style": ["error", "windows"],
+    "indent": ["error", 2],
     "no-unused-vars": [
       "error",
       { "varsIgnorePattern": "should\|expect" }
